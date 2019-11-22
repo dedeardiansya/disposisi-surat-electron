@@ -1,0 +1,41 @@
+$font-family: -apple-system, BlinkMacSystemFont, "lato", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-weight-light:   300 !default;
+$font-weight-normal:  400 !default;
+$font-weight-bold:    700 !default;
+$font-weight-bolder:  900 !default;
+
+$dropdown-shadow: 0px 0px 50px 0px rgba(82,63,105, 0.15) !default;
+
+$black:    #000000 !default;
+$gray-900: #282a3c !default;
+$gray-800: #363a3e !default;
+$gray-700: #616568 !default;
+$gray-600: #777a7d !default;
+$gray-500: #8c8f92 !default;
+$gray-400: #a2a4a6 !default;
+$gray-300: #b8b9bb !default;
+$gray-200: #e8ecfa !default;
+$gray-100: #f0f3ff !default;
+$white:    #FFFFFF !default;
+
+$purple: #5867dd !default;
+$green:  #0abb87 !default;
+$blue:   #5578eb !default;
+$yellow: #ffb822 !default;
+$red:    #fd397a !default;
+
+$primary: $purple !default;
+$success: $green  !default;
+$info:    $blue   !default;
+$warning: $yellow !default;
+$danger:  $red    !default;
+
+$zindex-fullscreen: 9999 !default;
+$zindex-tooltip:    1600 !default;
+$zindex-popover:    1500 !default;
+$zindex-aside:      1400 !default;
+$zindex-modal:      1300 !default;
+$zindex-modal-bg:   1200 !default;
+$zindex-dropdown:   1100 !default;
+$zindex-header:     1000 !default;

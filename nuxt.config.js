@@ -19,8 +19,13 @@ module.exports = {
 
   css: [
     '~/assets/fonts/lato/css/lato.css',
-    '~/assets/scss/Bootstrap.scss'
+    '~/assets/scss/Bootstrap.scss',
+    '~/assets/scss/Style.scss'
   ],
+
+  styleResources: {
+    scss: '~/assets/scss/_vars.scss'
+  },
 
   plugins: [],
 
