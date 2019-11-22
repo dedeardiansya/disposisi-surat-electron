@@ -19,7 +19,7 @@ module.exports = {
 
   css: [
     '~/assets/fonts/lato/css/lato.css',
-    '~/assets/scss/Bootstrap-grid.scss'
+    '~/assets/scss/Bootstrap.scss'
   ],
 
   plugins: [],
