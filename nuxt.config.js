@@ -17,7 +17,10 @@ module.exports = {
 
   loading: { color: '#fff' },
 
-  css: ['~/assets/fonts/lato/css/lato.css'],
+  css: [
+    '~/assets/fonts/lato/css/lato.css',
+    '~/assets/scss/Bootstrap-grid.scss'
+  ],
 
   plugins: [],
 
