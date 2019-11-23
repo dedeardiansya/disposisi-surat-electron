@@ -3,3 +3,8 @@
     <h1>sayurta-web</h1>
   </div>
 </template>
+<script>
+export default {
+  layout: 'app'
+}
+</script>

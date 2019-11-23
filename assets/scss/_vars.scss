@@ -25,8 +25,8 @@ $blue:   #5578eb !default;
 $yellow: #ffb822 !default;
 $red:    #fd397a !default;
 
-$primary: $purple !default;
-$success: $green  !default;
+$primary: $green !default;
+$success: $purple  !default;
 $info:    $blue   !default;
 $warning: $yellow !default;
 $danger:  $red    !default;
@@ -39,3 +39,9 @@ $zindex-modal:      1300 !default;
 $zindex-modal-bg:   1200 !default;
 $zindex-dropdown:   1100 !default;
 $zindex-header:     1000 !default;
+
+$border-radius-sm:  2px !default;
+$border-radius:     3px !default;
+$border-radius-lg:  4px !default;
+
+$btn-transition: background-color 100ms ease-in-out, border-color 100ms ease-in-out, color 100ms ease-in-out !default;

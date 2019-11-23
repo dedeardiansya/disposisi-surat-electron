@@ -6,4 +6,9 @@ body {
   background-color: $gray-100;
   color: $gray-600;
   font-weight: 400;
+  min-width: 992px;
+  overflow: auto;
 }
+
+@import "layouts/app-layout";
+@import "layouts/app-header";
