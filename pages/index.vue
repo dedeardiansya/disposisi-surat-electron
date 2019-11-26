@@ -3,18 +3,21 @@
     <home-banner></home-banner>
     <home-category></home-category>
     <home-discount></home-discount>
+    <home-sales-ratio></home-sales-ratio>
   </div>
 </template>
 <script>
 import HomeBanner from '~/components/collections/home/HomeBanner'
 import HomeCategory from '~/components/collections/home/HomeCategory'
 import HomeDiscount from '~/components/collections/home/HomeDiscount'
+import HomeSalesRatio from '~/components/collections/home/HomeSalesRatio'
 export default {
   layout: 'app',
   components: {
     HomeBanner,
     HomeCategory,
-    HomeDiscount
+    HomeDiscount,
+    HomeSalesRatio
   }
 }
 </script>
