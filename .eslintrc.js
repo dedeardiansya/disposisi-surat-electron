@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'nuxt/no-cjs-in-config': 'off',
     'max-len': 'off',
-    'no-console': 0
+    'no-console': 0,
+    'no-new': 0
   }
 }
