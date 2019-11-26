@@ -10,6 +10,11 @@ body {
   overflow: auto;
 }
 
+.divider {
+  height: 1px;
+  background-color: rgba($gray-400, .3);
+}
+
 @import "layouts/app-layout";
 @import "layouts/app-header";
 

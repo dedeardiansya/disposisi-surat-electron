@@ -3,6 +3,7 @@
     <home-banner></home-banner>
     <home-category></home-category>
     <home-discount></home-discount>
+    <div class="divider my-3"></div>
     <home-sales-ratio></home-sales-ratio>
   </div>
 </template>
