@@ -2,7 +2,7 @@
   <div class="home-discount my-3">
     <div class="container-fluid">
       <div class="discount-wrapper">
-        <div class="discount-head py-3">
+        <div class="discount-head pt-3">
           <h5 class="discount-title">#SEDANGDISKON</h5>
           <div class="discount-action">
             <a href="#" class="view-more-button">LIHAT SEMUA</a>
