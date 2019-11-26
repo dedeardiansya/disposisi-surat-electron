@@ -1,10 +1,14 @@
 <template>
   <div>
-    <h1>sayurta-web</h1>
+    <home-banner></home-banner>
   </div>
 </template>
 <script>
+import HomeBanner from '~/components/collections/home/HomeBanner'
 export default {
-  layout: 'app'
+  layout: 'app',
+  components: {
+    HomeBanner
+  }
 }
 </script>
