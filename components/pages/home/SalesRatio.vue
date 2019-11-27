@@ -1,5 +1,5 @@
 <template>
-  <div class="home-sales-ratio my-3">
+  <div class="sales-ratio my-3">
     <div class="container-fluid">
       <div class="sales-ratio-wrapper">
         <div class="sales-ratio-head pt-3">

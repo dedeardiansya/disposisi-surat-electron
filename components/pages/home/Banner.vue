@@ -1,6 +1,6 @@
 <template>
   <div class="py-3">
-    <div ref="swiper" class="swiper-container home-banner-slide">
+    <div ref="swiper" class="swiper-container banner-slide">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="container-fluid">

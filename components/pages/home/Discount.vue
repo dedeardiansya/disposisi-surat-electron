@@ -1,5 +1,5 @@
 <template>
-  <div class="home-discount my-3">
+  <div class="discount my-3">
     <div class="container-fluid">
       <div class="discount-wrapper">
         <div class="discount-head pt-3">

@@ -1,5 +1,5 @@
 .home-page {
-  .home-banner-slide {
+  .banner-slide {
     .swiper-slide {
       img {
         display: block;
@@ -9,7 +9,7 @@
     }
   }
 
-  .home-category {
+  .category {
     .category-title {
       font-size: 16px;
       font-weight: $font-weight-bolder;
@@ -57,7 +57,7 @@
     }
   }
 
-  .home-discount {
+  .discount {
     background-image: linear-gradient(178deg, $primary 70%, transparent 70%);
     .discount-head {
       display: flex;
@@ -94,7 +94,7 @@
     }
   }
 
-  .home-sales-ratio {
+  .sales-ratio {
     .sales-ratio-head {
       display: flex;
       .sales-ratio-title {
