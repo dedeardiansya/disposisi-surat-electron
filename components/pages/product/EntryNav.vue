@@ -8,9 +8,14 @@
         </h1>
       </div>
       <div class="right">
-        <label class="entry-nav-sort-option-label">Urutkan</label>
-        <select class="entry-nav-sort-option">
+        <select class="entry-nav-select">
           <option selected>Terbaru</option>
+          <option>Termurah</option>
+          <option>Termahal</option>
+          <option>Terlaris</option>
+        </select>
+        <select class="entry-nav-select">
+          <option selected>Semua</option>
           <option>Termurah</option>
           <option>Termahal</option>
           <option>Terlaris</option>

@@ -30,15 +30,7 @@
         display: flex;
         margin: auto;
         margin-right: 0;
-        .entry-nav-sort-option-label {
-          display: block;
-          margin: auto 0;
-          margin-right: 10px;
-          font-size: 14px;
-          line-height: 1;
-          font-weight: $font-weight-bold;
-        }
-        .entry-nav-sort-option {
+        .entry-nav-select {
           display: block;
           font-size: 14px;
           line-height: 36px;
@@ -49,11 +41,14 @@
           border: none;
           border-radius: $border-radius;
           background-color: $white;
-          min-width: 60px;
+          min-width: 50px;
           cursor: pointer;
           text-transform: none;
           color: $gray-700;
           outline: none;
+          &:last-child {
+            margin-left: 10px;
+          }
         }
       }
     }
