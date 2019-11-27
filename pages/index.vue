@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-page">
     <home-banner></home-banner>
     <home-category></home-category>
     <home-discount></home-discount>
