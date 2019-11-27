@@ -8,10 +8,10 @@
   </div>
 </template>
 <script>
-import HomeBanner from '~/components/collections/home/HomeBanner'
-import HomeCategory from '~/components/collections/home/HomeCategory'
-import HomeDiscount from '~/components/collections/home/HomeDiscount'
-import HomeSalesRatio from '~/components/collections/home/HomeSalesRatio'
+import HomeBanner from '~/components/pages/home/Banner'
+import HomeCategory from '~/components/pages/home/Category'
+import HomeDiscount from '~/components/pages/home/Discount'
+import HomeSalesRatio from '~/components/pages/home/SalesRatio'
 export default {
   layout: 'app',
   components: {
