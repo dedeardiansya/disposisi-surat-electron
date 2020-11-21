@@ -1,0 +1,19 @@
+@mixin alert-variant($colors) {
+  color: map-get($colors, 'hover');
+  background-color: $gray-900;
+  border-color: map-get($colors, 'hover');
+}
+
+.alert {
+  border-width: 0px;
+  border-left-width: $border-width * 4;
+  &.bg-800 {
+    background-color: $gray-800;
+  }
+}
+
+@each $color, $value in $custom-theme-colors {
+  .alert-#{$color} {
+    @include alert-variant($value);
+  }
+}

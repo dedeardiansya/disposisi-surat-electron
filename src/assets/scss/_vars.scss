@@ -1,0 +1,141 @@
+@import "~bootstrap/scss/functions";
+@import "vars-color";
+
+$white:    #fff;
+$gray-100: $color-blue-grey-100;
+$gray-200: $color-blue-grey-200;
+$gray-300: $color-blue-grey-300;
+$gray-400: $color-blue-grey-400;
+$gray-500: $color-blue-grey-500;
+$gray-600: $color-blue-grey-600;
+$gray-700: $color-blue-grey-700;
+$gray-800: $color-blue-grey-800;
+$gray-900: darken($color-blue-grey-800, 3%);
+$black:    #000;
+
+
+$blue:          $color-blue-600;
+$blue-hover:    $color-blue-700;
+$blue-light:      $color-blue-100;
+$indigo:          $color-indigo-600;
+$indigo-hover:    $color-indigo-700;
+$indigo-light:      $color-indigo-100;
+$purple:          $color-purple-600;
+$purple-hover:    $color-purple-700;
+$purple-light:      $color-purple-100;
+$pink:          $color-pink-600;
+$pink-hover:    $color-pink-700;
+$pink-light:      $color-pink-100;
+$red:          $color-red-600;
+$red-hover:    $color-red-700;
+$red-light:      $color-red-100;
+$orange:          $color-orange-600;
+$orange-hover:    $color-orange-700;
+$orange-light:      $color-orange-100;
+$yellow:          $color-yellow-600;
+$yellow-hover:    $color-yellow-700;
+$yellow-light:      $color-yellow-100;
+$green:          $color-green-600;
+$green-hover:    $color-green-700;
+$green-light:      $color-green-100;
+$teal:          $color-teal-600;
+$teal-hover:    $color-teal-700;
+$teal-light:      $color-teal-100;
+$cyan:          $color-cyan-600;
+$cyan-hover:    $color-cyan-700;
+$cyan-light:      $color-cyan-100;
+
+
+$primary:             $indigo;
+$primary-hover:       $indigo-hover;
+$primary-light:       $indigo-light;
+$success:             $green;
+$success-hover:       $green-hover;
+$success-light:       $green-light;
+$warning:             $yellow;
+$warning-hover:       $yellow-hover;
+$warning-light:       $yellow-light;
+$danger:              $red;
+$danger-hover:        $red-hover;
+$danger-light:        $red-light;
+
+
+$custom-theme-colors: (
+  "primary": (
+    'default' : $primary,
+    'hover' : $primary-hover,
+    'light' : $primary-light,
+  ),
+  "success": (
+    'default' : $success,
+    'hover' : $success-hover,
+    'light' : $success-light,
+  ),
+  "warning": (
+    'default' : $warning,
+    'hover' : $warning-hover,
+    'light' : $warning-light,
+  ),
+  "danger": (
+    'default' : $danger,
+    'hover' : $danger-hover,
+    'light' : $danger-light,
+  ),
+);
+
+
+$yiq-text-dark:             $gray-700;
+$yiq-text-light:            $white;
+$body-bg:                   $gray-100;
+$body-color:                $gray-500;
+
+
+$link-color:                $primary;
+$link-decoration:           none;
+$link-hover-color:          darken($link-color, 15%);
+$link-hover-decoration:     none;
+
+
+$line-height-lg:              1.5;
+$line-height-sm:              1.5;
+
+
+$border-width:                1px;
+$border-color:                $gray-300;
+
+
+$border-radius:               0rem;
+$border-radius-lg:            0rem;
+$border-radius-sm:            0rem;
+
+
+$box-shadow-sm:               0 0.1563rem 0.3125rem rgba($gray-900, .15);
+$box-shadow:                  0 0.3125rem 0.625rem rgba($gray-900, .15);
+$box-shadow-lg:               0 0.625rem 1.25rem rgba($gray-900, .15);
+
+
+$transition-base:             all .2s ease-in-out;
+$transition-fade:             opacity .15s linear;
+$transition-collapse:         height .35s ease;
+
+
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Open Sans", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+
+
+$font-size-base:              0.875rem;
+$font-size-lg:                1rem;
+$font-size-sm:                0.75rem;
+
+
+$font-weight-lighter:         100;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-semibold:        500;
+$font-weight-bold:            700;
+$font-weight-bolder:          900;
+$font-weight-base:            400;
+
+
+@import "~bootstrap/scss/variables";

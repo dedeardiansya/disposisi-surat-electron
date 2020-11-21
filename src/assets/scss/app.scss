@@ -1,0 +1,48 @@
+@import "vars";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index";
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $black;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  background: darken($gray-900, 4%);
+}
+
+.table {
+  .card {
+    width: 100%;
+  }
+  th {
+    font-weight: 300;
+    color: $white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: $gray-900;
+    outline: none;
+  }
+  td {
+    font-weight: 300;
+    color: $gray-200;
+    outline: none;
+  }
+  tr {
+    outline: none;
+  }
+}
+
+@import "custom/alert";
+@import "custom/button";
+@import "custom/form";
+@import "custom/card";
+
+
+body {
+  background-color: darken($gray-900, 3%);
+}

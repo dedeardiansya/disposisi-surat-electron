@@ -1,0 +1,44 @@
+.form-group label {
+  color: $gray-400;
+}
+
+.form-control {
+  height: 2.25rem;
+  border: none;
+  border-radius: $border-radius;
+  background-color: $gray-900;
+  font-weight: $font-weight-base;
+  font-size: $font-size-base;
+  color: $gray-200;
+  box-shadow: none !important;
+  padding: 0 1em;
+
+  &::placeholder {
+    color: $gray-400;
+  }
+  
+  &:focus {
+    box-shadow: none;
+    color: $gray-200;
+    background-color: $gray-900;
+  }
+
+  &.is-invalid {
+    color: $danger;
+    background-color: $gray-900;
+  }
+
+  &-lg {
+    font-size: 1.125rem;
+    height: 3.125rem;
+  }
+}
+
+
+// custom control
+.custom-control {
+  label::before {
+    box-shadow: none !important;
+    border-color: $gray-300;
+  }
+}

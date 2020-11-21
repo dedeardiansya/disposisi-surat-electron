@@ -1,0 +1,27 @@
+
+.card {
+  border: none;
+  background-color: $gray-800;
+  margin-bottom: $spacer;
+  .card-header {
+    background-color: rgba($gray-100, 0.5);
+    border: none;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+
+    .card-actions {
+      float: right;
+      .btn {
+        height: 32px;
+        line-height: 32px;
+        min-width: 0;
+      }
+    }
+  }
+
+  .card-footer {
+    border: none;
+    background-color: rgba($gray-100, 0.5);
+  }
+}

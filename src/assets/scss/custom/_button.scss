@@ -1,0 +1,104 @@
+@mixin button-variant($colors) {
+  color: color-yiq(map-get($colors, 'default'));
+  background-color: map-get($colors, 'default');
+
+  &.btn-alt {
+    color: map-get($colors, 'default');
+    background-color: rgba(map-get($colors, 'default'), 0.15);
+  }
+
+  @include hover() {
+    color: color-yiq(map-get($colors, 'hover'));
+    background-color: map-get($colors, 'hover');
+  }
+
+  &:focus,
+  &.focus {
+    color: color-yiq(map-get($colors, 'hover'));
+    background-color: map-get($colors, 'hover');
+    box-shadow: none;
+  }
+
+  &.loading {
+    // background-color: map-get($colors, 'default');
+    span::before {
+      border-color: rgba(color-yiq(map-get($colors, 'default')), .2);
+      border-right-color: color-yiq(map-get($colors, 'default'));
+    }
+    &.btn-alt {
+      span::before {
+        border-color: rgba(map-get($colors, 'default'), .2);
+        border-right-color: map-get($colors, 'default');
+      }
+    }
+  }
+
+  &.disabled,
+  &:disabled {
+    color: color-yiq(map-get($colors, 'default'));
+    background-color: map-get($colors, 'default');
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: color-yiq(map-get($colors, 'hover'));
+    background-color: map-get($colors, 'hover');
+    &:focus {
+      background-color: darken(map-get($colors, 'hover'), 8%);
+      box-shadow: none;
+    }
+  }
+}
+
+
+.btn {
+  border: none;
+  border-radius: $border-radius;
+  line-height: 2.25rem;
+  padding: 0 $spacer;
+  font-weight: $font-weight-base;
+  outline: none !important;
+  box-shadow: none !important;
+  letter-spacing: 1px;
+  font-size: $font-size-base;
+  vertical-align: middle;
+
+  &.loading {
+    color: transparent !important;
+    position: relative;
+    
+    .spinner {
+      display: block;
+      width: 1em;
+      height: 1em;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      
+      &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        border: 0.18em solid rgba($white, .2);
+        border-right-color: $white;
+        border-radius: 50%;
+        animation: spinner-border .75s linear infinite;
+      }
+    }
+  }
+
+  &.btn-sm {
+    line-height: 1.75rem;
+    font-size: $font-size-sm;
+    padding: 0 $spacer/1.5;
+  }
+}
+@each $color, $value in $custom-theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value);
+  }
+}

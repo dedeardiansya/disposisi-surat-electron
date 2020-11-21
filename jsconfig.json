@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
+    "target": "es6",
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"],
-      "~~/*": ["./*"],
-      "@@/*": ["./*"]
-    }
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "sourceMap": true
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

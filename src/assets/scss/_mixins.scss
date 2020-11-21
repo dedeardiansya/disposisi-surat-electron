@@ -1,0 +1,9 @@
+// Alert
+@mixin alert-variant($colors) {
+  color: darken(map-get($colors, 'hover'), 15%);
+  background-color: map-get($colors, 'light');
+  border-color: map-get($colors, 'hover');
+}
+
+// Buttton
+
